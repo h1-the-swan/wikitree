@@ -106,6 +106,7 @@
 
                     session.new = false;
                     session.data = data;
+					console.log(data);
 
                     Sessions.index[Sessions.active].date = Date.now();
                     localStorageService.set('index', Sessions.index);
