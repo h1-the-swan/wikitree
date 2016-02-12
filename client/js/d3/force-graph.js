@@ -416,6 +416,10 @@ ForceGraph.prototype.updateNodesAndLinks = function (nodes, links) {
     // keep things moving
     self.force.start();
 
+	console.log('updateNodesAndLinks');
+	console.log(nodes);
+	console.log(links);
+
 };
 
 ForceGraph.prototype.addNode = function (d, g) {
